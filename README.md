@@ -52,9 +52,10 @@ public class User {
     @Property(nameInDb = "NICKNAME")  
     private String nickname;  
 } 
-###
 ```
-DaoMaster.DevOpenHelper devOpenHelper = new DaoMaster.DevOpenHelper(getApplicationContext(), "lenve.db", null);  
+```
+//初始化
+DaoMaster.DevOpenHelper devOpenHelper = new DaoMaster.DevOpenHelper(getApplicationContext(), "lenve.db", null);  
         DaoMaster daoMaster = new DaoMaster(devOpenHelper.getWritableDb());  
         DaoSession daoSession = daoMaster.newSession(); 
         userDao = daoSession.getUserDao();  
