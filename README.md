@@ -1,6 +1,6 @@
 # Greendao
-### greenDao是一个将对象映射到SQLite数据库中的轻量且快速的ORM解决方案。
-关于greenDAO的概念可以看官网
+### greenDao是一个将对象映射到SQLite数据库中的轻量且快速的ORM解决方案。关于greenDAO的概念可以看官网
+
 ### 本demo进行了简单的封装可以直接拿来用，greendao简单的增，删，改，查
 ## greenDAO 优势
 - 一个精简的库
